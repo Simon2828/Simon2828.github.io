@@ -1,0 +1,27 @@
+$color: #33334D;
+
+body {
+	font-family: "Work Sans";
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: $color;
+	color: white;
+
+	h1 {
+		font-size: 40px;
+	}
+}
+
+#mugshot {
+	box-shadow: 5px;
+	margin-top: 1em;
+	width: 159px;
+	height: 200px;
+}
+
