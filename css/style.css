@@ -1,5 +1,7 @@
 body {
-  font-family: "Work Sans"; }
+    font-family: Tahoma;
+    font-size: 20px;
+ }
 
 header {
   display: flex;
@@ -19,11 +21,13 @@ video {
 }
 
 header h1 {
+    padding-top: 2rem;
     padding-left: 0;
     padding-bottom: 0;
 }
 
 #mugshot {
+    max-resolution: 2rem;
   box-shadow: 5px;
   margin-top: 1em;
   width: 159px;
@@ -42,7 +46,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 65%;
-    margin-left: 2rem;
+    margin-left: 7rem;
 }
 
 header {
@@ -110,6 +114,10 @@ h1 {
     clear: right;
     display: inline-block;
     width: 100%;
+}
+
+.theme2 {
+    margin-bottom: 0.3rem;
 }
 
 h2 {
@@ -198,5 +206,17 @@ h4 {
     padding: 10px;
 }
 
+.heading-right {
+    text-align: right;
+}
+
+.mugshot {
+    padding-top: 1em;
+}
+
+.mobile2 {
+    position: relative;
+    bottom: 60px;
+}
 
 /*# sourceMappingURL=style.css.map */
