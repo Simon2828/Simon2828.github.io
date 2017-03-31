@@ -1,0 +1,14 @@
+---
+title: About me
+description: I am a highly experienced English teacher, with a Postgraduate Cegree in Education (PGCE - 2010) and a Certificate in English Language teaching to Adults (CELTA - 2005). I motivate my students by giving lots of encouragement as well as constructive feedback, tailored to the individual’s learning needs. I have taught from beginner to advanced levels. 
+---
+<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.staff_members %}
+		<li>
+			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
+			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="position">{{ person.position }}</div>
+		</li>
+	{% endfor %}
+</ul>
